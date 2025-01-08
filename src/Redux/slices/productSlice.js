@@ -34,7 +34,7 @@ const productSlice = createSlice({
         builder.addCase(fetchProducts.rejected,(state,apiResult)=>{
             state.allProducts = []
             state.loading = false
-            state.errormeg = "API call is failed"
+            state.errormeg = "API call is  fail"
         })
     }
 })
